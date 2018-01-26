@@ -1,0 +1,25 @@
+{
+  "name": "promout",
+  "version": "0.0.1",
+  "description": "return a promise what is resolved after timeout",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cereceres/promout.git"
+  },
+  "keywords": [
+    "timeout",
+    "promise",
+    "after",
+    "seconds"
+  ],
+  "author": "Jesus Cereceres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cereceres/promout/issues"
+  },
+  "homepage": "https://github.com/Cereceres/promout#readme"
+}
