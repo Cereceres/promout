@@ -1,6 +1,6 @@
 {
   "name": "promout",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "return a promise what is resolved after timeout",
   "main": "index.js",
   "scripts": {

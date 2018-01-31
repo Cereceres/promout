@@ -1,5 +1,8 @@
-const prom = module.exports = (res, timeout = 1000) => new Promise(
+const defaultTimeout = 0;
+
+const prom = module.exports = (res, _timeout) => new Promise(
     (resolve) => {
+        const timeout = _timeout || res || defaultTimeout;
         const timer = setTimeout(() => resolve(timer), timeout);
     }
 )
@@ -8,8 +11,9 @@ const prom = module.exports = (res, timeout = 1000) => new Promise(
         return res;
     });
 
-prom.reject = (res, timeout = 1000) => new Promise(
+prom.reject = (res, _timeout) => new Promise(
     (resolve) => {
+        const timeout = _timeout || res || defaultTimeout;
         const timer = setTimeout(() => resolve(timer), timeout);
     }
 )
